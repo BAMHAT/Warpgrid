@@ -1,16 +1,16 @@
 # Warpgrid
-Warpgrid is a simple grid-based game using a pair of dice and a pencil to escape a series of six 6x6 warpgrid game regions.
-__
+### Warpgrid is a simple grid-based game using a pair of dice and a pencil to escape a series of six 6x6 warpgrid game regions.
+<br />  
 
-Story:_
+### Story:  
 In the far future, you have equipped a piece of experimental technology called a warpsuit, intended to allow its
 user a means of teleporting through space. However, after trying to use it for the first time, you find yourself 
 in a strange grid-like prison, outside of space and time. By traveling from portal to portal through a series of 
 six grids, your suit will absorb energy from the fabric of the grid-world, and allow you to warp back home. 
 However, you must navigate carefully through each portal while avoiding tears in the fabric of space.
-__
+<br />  
 
-Rules:_
+### Rules:  
 1. The goal of the game is for the player to traverse from the top left warpgrid through 6 total warpgrids to the bottom right warpgrid, where escaping from there indicates the player has left the grid world and the game is won. The elements of the game that appear during gameplay are drawn in by the player in pencil, and pair of dice is required to play.
 2. The UI elements in the game region are the following: the main 6 x 6 grid is the warpgrid; the 4 grid regions on the left side are the charge tank, where each subregion is a phase charge made up of 12 smaller charge cells; the 6 cells on the right side are the warpdrive meter, where each subcell is a warp cell.
 3. The main actors in the warpgrid are the following: a portal for entering and exiting each warpgrid, represented by a circular spiral, and distortions of three different levels, where level 1 is represented by a circle, level 2 is a half-shaded circle, and level 3 is a fully shaded circle. The player is indicated by a level 1 distortion with a verticle center line.
