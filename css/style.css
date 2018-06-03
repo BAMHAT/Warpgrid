@@ -1,11 +1,11 @@
 /* General Styling */
 h1 {
   font-family: 'Expletus Sans', cursive, sans-serif;
-  font-size: 32px;
-  letter-spacing: 60px;
+  font-size: 5vw;
+  letter-spacing: 5vw;
   border: 3px solid black;
 
-  text-indent: 60px;
+  text-indent: 5vw;
   text-align: center;
   padding: 10px 0 0;
   margin: 0 auto;
