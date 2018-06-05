@@ -19,17 +19,46 @@ h1 {
 
 
 /* Container Layout Styling */
-#table-container {
+#main-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 165px 0;
+  height: 480px;
 }
 
-.table-box {
+.aside-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0;
+  width: 35%;
+}
+
+.canvas-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0;
+  width: 30%;
+}
+
+.canvas-box {
+  margin: 10px 0;
+}
+
+.canvas-box#warpgrid {
   width: 21vw;
   height: 18vw;
+  border: 2px solid black;
+}
+
+.canvas-box#dice-box {
+  width: 14vw;
+  height: 6vw;
+  border: 2px solid black;
 }
 
 
