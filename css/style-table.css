@@ -1,0 +1,93 @@
+/* General Styling */
+h1 {
+  font-family: 'Expletus Sans', cursive, sans-serif;
+  font-size: 5vw;
+  letter-spacing: 5vw;
+  border: 3px solid black;
+
+  text-indent: 5vw;
+  text-align: center;
+  padding: 10px 0 0;
+  margin: 0 auto;
+}
+
+@page {
+  size: auto;
+  margin: 0mm;
+  text-align: center;
+}
+
+
+/* Container Layout Styling */
+#table-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 165px 0;
+}
+
+.table-box {
+  width: 21vw;
+  height: 18vw;
+}
+
+
+/* Table Specific Styling */
+table {
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+td, th {
+  width: 8px;
+  height: 8px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+colgroup.chargetank {
+  border: 3px solid black;
+}
+
+colgroup.grid {
+  border: 3px solid black;
+}
+
+colgroup.warpdrive {
+  border: 3px solid black;
+}
+
+
+/* Instructions Section Styling */
+article#text-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  border: 3px solid black;
+  margin: 10px 0 15px;
+}
+
+section.text-box {
+  width: 50%;
+  align-items: flex-start;
+}
+
+section.text-box#left-column {
+  padding: 0 8px;
+}
+
+section.text-box#right-column {
+  padding: 0 8px;
+}
+
+section.text-box ol {
+  padding: 0 0 0 20px;
+  margin: 8px 0;
+}
+
+section.text-box li {
+  font-family: 'Expletus Sans', cursive, sans-serif;
+  font-size: 11px;
+  margin: 0 0 2px 0;
+}

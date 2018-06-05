@@ -1,4 +1,4 @@
-// warpgrid.js
+// warpgrid-table.js
 
 // Populating table cells with relevant properties
 var largeCellWidth = "16px";

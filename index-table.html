@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Warpgrid</title>
 
-    <link href="css/style-canvas.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Expletus+Sans" rel="stylesheet">
   </head>
   <body>
@@ -15,7 +15,79 @@
 
 
     <main id="table-container">
-      <canvas id="canvas" width="420" height="360"></canvas>
+
+      <table id="grid-one" class="table-box">
+        <colgroup class="chargetank" span="2">
+          <col class="chargetank-col">
+          <col class="chargetank-col">
+        </colgroup>
+        <colgroup class="chargetank" span="2">
+          <col class="chargetank-col">
+          <col class="chargetank-col">
+        </colgroup>
+        <colgroup class="grid" span="12">
+          <col class="grid-col" span="2">
+          <col class="grid-col" span="2">
+          <col class="grid-col" span="2">
+          <col class="grid-col" span="2">
+          <col class="grid-col" span="2">
+          <col class="grid-col" span="2">
+        </colgroup>
+        <colgroup class="warpdrive" span="2">
+          <col class="warpdrive-col" span="2">
+        </colgroup>
+        <tbody class="main-grid">
+          <tr class="test">
+            <td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td><td></td><td></td><td></td>
+          </tr>
+          <tr>
+            <td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td><td></td><td></td><td></td>
+          </tr>
+          <tr>
+            <td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td><td></td><td></td><td></td>
+          </tr>
+          <tr>
+            <td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td><td></td><td></td><td></td>
+          </tr>
+          <tr>
+            <td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td><td></td><td></td><td></td>
+          </tr>
+          <tr>
+            <td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td><td></td><td></td><td></td>
+          </tr>
+        </tbody>
+      </table>
+
     </main>
 
     <article id="text-container">
@@ -51,6 +123,6 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous">
     </script>
-    <script src="scripts/warpgrid-canvas.js"></script>
+    <script src="scripts/warpgrid.js"></script>
   </body>
 </html>

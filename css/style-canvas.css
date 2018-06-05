@@ -24,37 +24,12 @@ h1 {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 10px 0;
+  margin: 165px 0;
 }
 
 .table-box {
-  width: 40%;
-}
-
-
-/* Table Specific Styling */
-table {
-  border-collapse: collapse;
-  margin: 10px;
-}
-
-td, th {
-  width: 8px;
-  height: 8px;
-  border: 1px solid gray;
-  text-align: center;
-}
-
-colgroup.chargetank {
-  border: 3px solid black;
-}
-
-colgroup.grid {
-  border: 3px solid black;
-}
-
-colgroup.warpdrive {
-  border: 3px solid black;
+  width: 21vw;
+  height: 18vw;
 }
 
 
